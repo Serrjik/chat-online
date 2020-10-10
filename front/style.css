@@ -1,0 +1,28 @@
+.message-panel {
+    height: calc(100vh - 150px);
+}
+
+.message_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 1px solid gray;
+    padding-right: 15px;
+    min-width: 150px;
+    text-align: center;
+}
+
+.message_info small {
+    display: block;
+}
+
+.message_info_author {
+    font-weight: bold;
+}
+
+.message_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+}

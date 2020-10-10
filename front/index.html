@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chat online</title>
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<!-- User styles -->
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- 	<div class="container vh-100 p-2">
+		<div class="card h-100">
+			<div class="d-flex flex-column">
+				<div class="card-header">
+					<h3 class="card-title">Чат онлайн</h3>
+				</div>
+
+				<!-- Контейнер для сообщений. -->
+<!-- 				<div class="list-group flex-grow-1 overflow-auto message-panel">
+					<div class="list-group-item d-flex">
+						<div class="message_info">
+							<div class="message_info_author">Алексей Данчин</div>
+							<small>14:55:15</small>
+						</div>
+						<div class="message_content flex-grow-1">
+							Вот какое-то сообщение! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+							aliquam excepturi impedit, labore ducimus aliquid architecto consequuntur ab suscipit quam,
+							quae consequatur minima molestias doloribus illum fugiat magni repellat quidem. Lorem ipsum
+							dolor sit amet consectetur adipisicing elit. Vero perspiciatis eum dolorem exercitationem ab
+							quibusdam voluptas quo illum magnam commodi doloribus earum delectus, mollitia sed ad hic
+							consectetur ipsa beatae distinctio esse. Odit distinctio repellat inventore maxime nulla
+							pariatur fugiat iure minus, doloremque autem unde fuga eum. Ea, at eos.
+						</div>
+					</div>
+
+					<div class="list-group-item d-flex">
+						<div class="message_info">
+							<div class="message_info_author">Алексей Данчин</div>
+							<small>14:55:15</small>
+						</div>
+						<div class="message_content flex-grow-1">
+							OK, understand.
+						</div>
+					</div>
+				</div>
+				<!-- // Контейнер для сообщений. -->
+
+<!--				<div class="card-footer">
+					<div class="input-group w-100 d-flex">
+						<input
+							type="text"
+							class="form-input flex-grow-1"
+							id="validatedInputGroupCustomFile"
+							required
+						>
+						<div class="input-group-append">
+							<button 
+								class="btn btn-outline-primary" 
+								type="button"
+							>
+								Отправить
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+	<!-- Socket.io -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+
+	<!-- bootstrap js -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+		crossorigin="anonymous"></script>
+
+	<!-- chat -->
+	<script src="./dist/chat.js"></script>
+</body>
+
+</html>

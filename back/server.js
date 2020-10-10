@@ -18,7 +18,7 @@ let messages = []
 // Use the session middleware
 const sessionMiddleware = session({
 	secret: 'keyboard cat',
-	cookie: { maxAge: 60000 }
+	cookie: { maxAge: 99999999 }
 });
 
 let idCounter = 0
